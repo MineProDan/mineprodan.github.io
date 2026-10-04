@@ -1,4 +1,4 @@
-# GitHub Pages site for WidgetX
+# GitHub Pages site for Widgetdeck
 
 Contents of the `mineprodan.github.io` repository: the flags file the app reads, plus the privacy
 policy and support pages App Store Connect needs. Keep this folder as the source of truth and copy
@@ -29,5 +29,5 @@ September 29, 2026. Update the effective date in `privacy/index.html` whenever t
 ## Switching a feature off (e.g. if App Review objects to CPU/memory)
 
 Edit `flags.json` in the repo on github.com, change `true` to `false`, commit. It's live within
-about 1–10 minutes; each iPhone picks it up next time WidgetX opens or refreshes in the background.
+about 1–10 minutes; each iPhone picks it up next time Widgetdeck opens or refreshes in the background.
 Keep the file valid JSON (the app ignores a broken file and keeps its last good values).
